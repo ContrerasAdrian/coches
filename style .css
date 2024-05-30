@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center; /* Centrar el contenido */
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.search-container {
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Mover el contenedor de búsqueda a la esquina superior derecha */
+}
+
+.search-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+.images-container {
+    display: flex; /* Establecer la presentación en línea */
+}
+
+.images-container img {
+    margin-right: 10px; /* Espacio entre las imágenes */
+}
+
+.nav-bottom {
+    background-color: #007BFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bottom ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-bottom ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px; /* Igualar el tamaño de la fuente al del encabezado y la barra de navegación */
+}
+
+.nav-bottom ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos adicionales para la sección de ubicación */
+#ubicacion {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center; /* Centrar el contenido */
+}
+
+.location-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-map {
+    flex: 1; /* Hacer que la imagen ocupe todo el espacio restante */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.location-map img {
+    max-width: 100%;
+    height: auto;
+}
+
+.location-description {
+    flex: 1; /* Hacer que el texto ocupe todo el espacio restante */
+}
+
+.location-description p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.location-description a {
+    font-size: 20px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.location-description a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos adicionales para la sección de botones de docentes */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los botones */
+    margin-top: 20px;
+}
+
+.buttons-container button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons-container button:hover {
+    background-color: #0056b3;
+}
